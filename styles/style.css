@@ -1,0 +1,49 @@
+body{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: #333333;
+    width: 700px;
+}
+
+.blueColor{
+    color: blue;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.text{
+    color: #333333;
+    font-size: 18px;
+}
+
+.total{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: blue;
+    background-color: rgb(203, 220, 255);
+    height: 30px;
+    width: 170px;
+    border: 0;
+}
+
+button:hover{
+    font-weight: bolder;
+    font-size: 17px;
+    color: #333333;
+    background-color: rgb(203, 220, 255);;
+}
+
+button:active{
+    background-color: blue;
+    color: white;
+}
