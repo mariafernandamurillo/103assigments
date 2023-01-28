@@ -25,6 +25,13 @@ p{
     font-size: 18px;
 }
 
+span{
+    font-weight: bolder;
+    color: blue;
+    font-size: 16px;
+}
+
+
 button{
     font-weight: bold;
     font-size: 15px;
