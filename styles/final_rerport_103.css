@@ -1,0 +1,78 @@
+
+body{
+    background-image: url("../images/backgroundFinalRepor103.jpg"); 
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color: #604D25;
+}
+h3{
+    background-color: #EDE5DA;
+    width: 40%;
+    text-align: center;
+    color: #604D25;
+}
+
+.agenda{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.toDos{
+   width: 50%;
+   background-color: white;
+   margin-right: 5px;   
+}
+
+.headers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.notes{
+    width: 50%;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.notesitem{
+
+}
+
+.btnAdd{
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+    background-color: #B3977F;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border-color: #B3977F;
+    color: #EDE5DA;
+}
+
+@media (max-width:768px) {
+    .agenda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .toDos{
+        width: 100%;
+        margin-top: 20px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .notes{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}

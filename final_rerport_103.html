@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/final_rerport_103.css" rel="stylesheet">
+    <script src="scripts/final_rerport_103.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>My ToDo</h1>
+
+    <div class="agenda">
+
+        <div class="toDos">
+            <div class="priorities">
+
+                <div class="headers">
+                    <h3>Priorities</h3>
+                    <input id="priority" placeholder="Write your prioritie">
+                    <button class="btnAdd" onclick="getPriority()">Add</button>
+                </div>
+
+                <div class="priorityItem">
+                    <ol id="priorityItem">
+
+                    </ol>
+                </div>
+            </div>
+        
+            <div class="otherTODOS">
+                <div class="headers">
+                    <h3>Other ToDo's</h3>
+                    <input id="toDo" placeholder="Write your activitie">
+                    <button class="btnAdd" onClick="addToDo()">Add</button>
+                </div>
+                <div class="otherTODOSitem">
+                    <ol id="toDoItem">
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+        <div class="notes">
+            <div class="headers">
+                <h3>Notes</h3>
+                <input id="note" placeholder="Write your note">
+                <button class="btnAdd" onclick="addNote()">Add</button>
+            </div>
+            <div class="noteItems">
+                <ol id="noteItem">
+
+                </ol>
+             </div>
+        </div>
+    </div>
+    
+</body>
+</html>
